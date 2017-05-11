@@ -26,7 +26,7 @@ list: {
     break Schedule;
     text += Schedule[3] + "<br>";
     text += Schedule[4] + "<br>";
-    text += Schedule[5] + "<br>"; 
+    text += Schedule[5] + "<br>";
 }
 function validate(){
   var PhoneEntered = document.getElementById("Phonenum").value;
@@ -54,7 +54,7 @@ document.getElementById("PhonenumGroup").classList.add("has-success");
          { document.getElementById("FnameError").innerHTML="name needs to be at least one letter.";
          document.getElementById("FnameError").classList.remove("hidden-message");
          document.getElementById("FnameError").classList.add("shown-message");
-         //Turn the username items red
+         //Turn the username items Red
          document.getElementById("FnameGroup").classList.add("has-error");
          }
 
